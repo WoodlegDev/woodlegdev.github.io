@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>On-Pack Promotion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body style="background-color:#0D132F">
+    <div class="container">
+
+        
+
+        <div class="col-md-6 mx-auto text-center">
+           <div class="header-title">
+              <h1 class="wv-heading--title" style="color:white">
+                 WORLD CUP 2022
+              </h1>
+              <h2 class="wv-heading--subtitle" style="color:white">
+                 Try to Score!
+              </h2>
+           </div>
+        </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="media/goal.png" class="d-block w-100" alt="..." onclick="showSuccess()">
+          </div>
+      </div>
+      </div>
+      <div class="hide alert alert-success" role="alert" id="goalscore">
+        Torschuss erfolgreich!
+      </div>
+      <br>
+      <div class="card" aria-hidden="true">
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-6"></span>
+            <span class="placeholder col-8"></span>
+          </p>
+          <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6 send-button"></a>
+        </div>
+      </div>
+
+</body>
+
+<script>
+    function showSuccess(){
+        var element = document.getElementById("goalscore");
+        element.classList.remove("hide");
+
+    }
+</script>
