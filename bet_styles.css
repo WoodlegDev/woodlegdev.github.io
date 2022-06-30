@@ -3,6 +3,11 @@ body {
   height: 100%;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
 body {
   display: flex;
   align-items: center;

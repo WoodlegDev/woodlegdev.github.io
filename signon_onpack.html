@@ -6,14 +6,21 @@
     <title>On-Pack Promotion</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    
   </head>
   <body>
+   <nav class="navbar bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="media/logo_sinalco.png" alt="" width="50" height="50">
+        </a>
+      </div>
+    </nav>
+    <br>
     <div class="container">
        <div class="col-md-6 mx-auto text-center">
+         <img src="media/2022_FIFA_World_Cup.svg.png" class="rounded mx-auto d-block" width="30%">
           <div class="header-title">
-             <h1 class="wv-heading--title">
-                WORLD CUP 2022
-             </h1>
              <h2 class="wv-heading--subtitle">
                 Score a goal and secure awesome prices!
              </h2>
@@ -32,14 +39,58 @@
                    <div class="form-group">
                       <input type="number" min="0" name="phone" id="phone"  class="form-control my-input" placeholder="Phone">
                    </div>
-                   <div class="text-center ">
-                      <a href="https://woodlegdev.github.io/score_onpack.html" class=" btn btn-block send-button tx-tfm">SCORE!</a>
-                   </div>
                    
+                   <div class="form-check">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                     <label class="form-check-label" for="flexRadioDefault1">
+                       I want to receive exclusive offers
+                     </label>
+                   </div>
+                   <div class="form-check">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                     <label class="form-check-label" for="flexRadioDefault2">
+                       I don't want to get exclusive offers
+                     </label>
+                   </div>
+                   <div class="text-center ">
+                     <a href="https://woodlegdev.github.io/score_onpack.html" class=" btn btn-block send-button tx-tfm">SCORE!</a>
+                  </div>
                 </form>
+             </div>
+             <div class="col-md-6 mx-auto text-center" >
+               <div class="header-title">
+                  <h1 class="wv-heading--title">
+                     Win amazing prices
+                  </h1>
+               </div>
+            </div>
+             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <img src="media/thermomixlogo.png" class="d-block"style="margin:auto" width="50%">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="media/Apple_logo_black.svg.png" class="d-block" style="margin:auto" width="20%">
+                 </div>
+                 <div class="carousel-item">
+                   <img src="media/Sonos-Logo.wine.png" class="d-block" style="margin:auto" width="50%">
+                 </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Next</span>
+               </button>
              </div>
           </div>
        </div>
+       <br>
+      <br>
+      <p>Terms and conditions</p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
  </body>
 </html>
